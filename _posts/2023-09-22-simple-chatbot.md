@@ -251,13 +251,20 @@ class ChatBot(object):
 
 Here we create a `ChatBot` and initialize the conversation as `self.messages` with the sytem prompt (i.e. "You are a helpful assistant.").  Then each call to `process` is supplied a message from the user, which is appended to the conversation as a user message.  Next, the LLM is asked to complete the conversation, and its response is added to the conversation (`self.messages`) as an assistant message.  Every time the user has an additional message to say, the `process` method is called on the `ChatBot`.
 
-## The final code
+## Conclusion
 
-The following is the final code as of the time of writing this blog entry, has comments to describe the different parts of the code, and shows how to use the `ChatBot` class and get input from the user.  For the most recent version of the code check its repo at [artificial-brilliance/simple_chatbot](https://github.com/artificial-brilliance/simple_chatbot).
+Below you will find the final code as of the time of writing this blog entry that has comments to describe the different parts of the code and shows how to use the `ChatBot` class and get input from the user.  For the most recent version of the code check its repo at [artificial-brilliance/simple_chatbot](https://github.com/artificial-brilliance/simple_chatbot).
+
+I would like to give thanks to Simon Willison for their great [post](https://til.simonwillison.net/llms/python-react-pattern) on the ReAct pattern that served as inspiration for this post.
 
 I hope you found this blog post helpful, and feel free to leave any questions or comments in the question section.
 
+## The final code
+
 ```python
+# This code is Apache 2 licensed:
+# https://www.apache.org/licenses/LICENSE-2.0
+
 import os
 from typing import cast, Any, Optional
 
