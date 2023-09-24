@@ -9,8 +9,6 @@ giscus_comments: true
 related_posts: false
 thumbnail:
 featured: false
-toc:
-  sidebar: left
 ---
 
 In this post we will go over how to create a simple chatbot using OpenAI's [Create chat completion](https://platform.openai.com/docs/api-reference/chat/create) API endpoint.
