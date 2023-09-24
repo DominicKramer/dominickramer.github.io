@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://dominickramer.github.io/sitemap.xml
+Sitemap: https://www.dominickramer.com/sitemap.xml
