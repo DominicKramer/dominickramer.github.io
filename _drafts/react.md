@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ReAct
-date: 2023-09-xx 11:59:00-0400
+date: 2023-09-26 11:59:00-0400
 description:
 tags:
 categories:
